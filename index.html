@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Chess Engine First Brainstorm</title>
+    <meta charset="UTF-8">
+    <link href="/favicon.ico" rel="icon" type="image/x-icon">
+  </head>
+  <body>
+    <main>
+        <img src="chess_board.png" alt="Chess Board" style="width: 55vw; min-width: 330px;">
+        <header>
+            <h1>Chess Engine First Brainstorm</h1>
+            <h3>Meeting summary</h3>
+            <p>
+                These are the meeting minutes for making a chess engine.
+                We examine possible ideas for implementing it.
+            </p>
+        </header>
+        <hr>
+            <section>
+                <h2>Design Priorities</h2>
+                <ol>
+                    <li>Implements Chess Rules <strong>Correctly</strong></li>
+                    <li>Plays Chess Well</li>
+                    <li>Nice <b>GUI</b></li>
+                </ol>
+                <h2>Algorithmic Ideas</h2>
+                <ul>
+                    <li><em>Minimax</em></li>
+                    <li>Alpha Beta Pruning</li>
+                    <li>Monte Carlo Tree Search</li>
+                    <li><i>Machine</i> Learning</li>
+                </ul>
+            </section>
+        </hr>
+        <h1>Multimedia</h1>
+        <div>
+            <audio controls>
+                <source src="asmr.mp3" type="audio/mpeg">
+            </audio> 
+        </div>
+        <video width="320" height="240" controls>
+            <source src="engine.mp4" type="video/mp4">
+        </video> 
+        <footer>
+            <details>
+                <summary><span style="color:blue;font-weight:bold">tldr:</span></summary>          
+                <p>
+                    There are lots of possible ideas.
+                    We should start simple first.
+                </p>
+            </details>       
+            <nav>
+                <a href="https://en.wikipedia.org/wiki/Computer_chess">Wikipedia</a> | 
+                <a href="https://www.geeksforgeeks.org/minimax-algorithm-in-game-theory-set-4-alpha-beta-pruning/">Alpha Beta Pruning</a> |
+                <a href="https://www.chess.com/learn-how-to-play-chess">Rules of Chess</a> | 
+            </nav>
+            <h3>Comment Form</h3>  
+            <form>
+                <fieldset>
+                    High Priority:
+                    <input type = "checkbox"> <br>
+                    Satisfaction:
+                    <input type="radio" name="rating" > :)
+                    <input type="radio" name="rating" > :|
+                    <input type="radio" name="rating" > :( <br>
+                    Birthday:
+                    <input type="date"><br>
+                    Name:
+                    <input type="text"><br>
+                    School:
+                    <input list="schools">
+                    <datalist id="schools">
+                        <option value="UCSD">
+                        <option value="SDSU">
+                    </datalist> <br>
+                    Gender:
+                    <select>                      
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select> <br>
+                    Comment:
+                    <textarea></textarea> <br>
+                    <button type="button">Submit</button> 
+
+                </fieldset>
+            </form>
+        </footer>
+    </main>
+  </body>
+</html>
