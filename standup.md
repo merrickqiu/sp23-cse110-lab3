@@ -1,0 +1,6 @@
+- What did I work on yesterday?
+    - Chess engine heuristic function
+- What am I working on today?
+    - Min max search algorithm
+- What Issues are Blocking me?
+    - Programs are timing out
