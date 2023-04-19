@@ -1,0 +1,103 @@
+p {
+    color: coral;
+    margin-top: 10px;
+    margin: bottom auto;
+    padding-top: 5px;
+    padding: bottom 5px;
+    text-decoration: underline;
+    text-align: start;
+    position: sticky;
+    height: 20px;
+    width: 1200px;
+    max-width: 1200px;
+    min-width: 20px;
+    font-family: 'DotGothic16';
+}
+
+header {
+    margin: 25px 25px; 
+}
+
+body {
+    background-color: #d0d0a0;
+}
+
+h1 {
+    color: hsl(0, 100%, 50%);
+    margin: 1rem 30px; 
+    border-style: solid;
+    border-color: #333;
+    border-width: 2px;
+    border-radius: 10px;
+    position: static;
+}
+/* Make headers brown */
+h2, h3 {
+    color:rgb(139, 69, 19);
+    margin: 1rem 2rem; 
+}
+
+button:hover {
+    color: orange;
+}
+
+button:active {
+    color: red;
+}
+
+fieldset[type="flex"] {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    flex-flow: column wrap;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    
+}
+
+#griditem {
+    background-color: lightblue;
+    padding: 20px;
+}
+
+/* Have the text be larger on my big monitor */
+@media screen and (min-width: 1920px) {
+    body {
+      font-size: 20px;
+    }
+  }
+
+@font-face {
+    font-family: 'DotGothic16';
+    src: url('DotGothic16.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+ul li {
+font-weight: bold;
+}
+
+ol  > li {
+    color: red;
+}
+
+input ~ select {
+    color: seagreen;
+}
+
+summary + p {
+    color: purple;
+}
+
+div.grid {
+    gap: 10px;
+}
