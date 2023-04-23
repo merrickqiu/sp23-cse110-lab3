@@ -1,6 +1,14 @@
-- What did I work on yesterday?
-    - Chess engine heuristic function
-- What am I working on today?
-    - Min max search algorithm
-- What Issues are Blocking me?
-    - Programs are timing out
+- Friday
+    - Priorities
+        - Chess engine heuristic function
+    - Progess
+        - Min max search algorithm
+    - Problems
+        - Programs are timing out
+ - Saturday
+    - Priorities
+        - Chess engine heuristic function debugging
+    - Progess
+        - Min max search algorithm time optimization
+    - Problems
+        - Code Readability
